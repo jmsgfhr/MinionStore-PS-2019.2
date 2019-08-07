@@ -6,9 +6,12 @@ export default class Header extends React.Component {
         return(
             <header className='header'>
                 <div className='container'>
-                    <img src='' className='logoNav' alt='logo'/>
-                <div className='navButtons'>
-                </div>
+                    <div className='logo'>
+                        <p className='logoShadow'>MinionStore</p>
+                        <p className='logoUp'>MinionStore</p>
+                    </div>
+                    <div className='navButtons'>
+                    </div>
                 
                 </div>
             </header>
